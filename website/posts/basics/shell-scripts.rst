@@ -2,7 +2,7 @@
 .. slug: Using Shell Scripts
 .. date: 2021-04-07 14:00
 .. tags:
-.. category: linux:basic-tools
+.. category: misc:basics
 .. link:
 .. description:
 .. type: text

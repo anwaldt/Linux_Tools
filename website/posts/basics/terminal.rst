@@ -2,15 +2,13 @@
 .. slug: using-the-terminal-for-doing-stuff
 .. date: 2021-04-07 14:00
 .. tags:
-.. category: linux:basic-tools
+.. category: misc:basics
 .. link:
 .. description:
 .. type: text
 .. priority: 1
 
-People working a lot with MAC or Linux systems might be used
-to doing things from the terminal or console.
-For novices, it usually appears more frightening than it actually is.
+People developing on MAC or Linux systems are used to doing things from the terminal or console.
 Especially when working on remote servers - but also for embedded
 devices for audio processing - the terminal is the standard tool.
 
