@@ -10,7 +10,7 @@
 .. author: Nils Tonnätt
 
 Meson is a modern and fast build system with a lot of features. You can
-find its documentation at [mesonbuild.com](https://mesonbuild.com/).
+find its documentation at `mesonbuild.com <https://mesonbuild.com/>`_.
 Meson is written in Python. Meson has different backends (Ninja, VS*, Xcode, …).
 
 ---
