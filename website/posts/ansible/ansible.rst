@@ -95,3 +95,22 @@ file `ansible.cfg`:
 
 This file sets the location of your inventory file to `./hosts`. Furthermore
 the default SSH user as well as the sudo user gets set to `studio`.
+
+---
+
+Executing a Playbook
+====================
+
+Executing our playbook file install_basic.yml:
+
+ .. code-block:: command
+
+ 	ansible-playbook install_basic.yml -k -K
+
+For this to work every machine in group web must have a user studio with the
+same password. The flag `-k` lets Ansible ask for a SSH password. `-K` is for the
+sudo password.
+
+If there's a SSH key for user studio on all machines, no SSH password has
+to be typed, but the password for sudo is still necessary.
+
