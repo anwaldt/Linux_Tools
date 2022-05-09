@@ -13,7 +13,7 @@ Meson is a modern and fast build system with a lot of features. You can
 find its documentation at `mesonbuild.com <https://mesonbuild.com/>`_.
 Meson is written in Python. Meson has different backends (Ninja, VS*, Xcode, …).
 
----
+------
 
 Installing Meson and Ninja
 --------------------------
@@ -46,7 +46,7 @@ PIP:
 
     sudo pip install meson ninja
 
----
+------
 
 Build
 -----
@@ -55,29 +55,35 @@ Meson builds in a separate directory. It doesn't touch anything of your project.
 This way you can have seperate debug and release build directories for example.
 
 Prepare your build directory:
-```bash
-meson builddir                                  # defaults to debug build
 
-## Additional build directories
-meson --buildtype release build_release         # release build
-meson --buildtype debugoptimized build_debug    # optimized debug build
-```
+.. code-block:: console
+
+  meson builddir                                  # defaults to debug build
+
+  ## Additional build directories
+  meson --buildtype release build_release         # release build
+  meson --buildtype debugoptimized build_debug    # optimized debug build
+  ```
+
 
 Now build with Ninja:
-```bash
-cd builddir
-ninja
-```
+
+.. code-block:: console
+
+  cd builddir
+  ninja
+
 
 Install with:
-```bash
-sudo ninja install
-```
 
----
+.. code-block:: console
+
+  sudo ninja install
+
+
+------
 
 Configuration
 -------------
 
 If you are in a build directory, `meson configure` shows you all available options.
-

@@ -66,7 +66,8 @@ Inventory
 For executing our new playbook Ansible needs to know what machines are in our
 inventory. The inventory can be written in INI or YAML syntax.
 
- .. code-block:: ini
+.. code-block:: ini
+
 	[local]
 	localhost
 
@@ -88,6 +89,7 @@ A separate inventory file can be set for your project in an Ansible configuratio
 file `ansible.cfg`:
 
  .. code-block:: ini
+
 	[defaults]
 	inventory = hosts
 	ansible_ssh_user = studio
@@ -103,9 +105,10 @@ Executing a Playbook
 
 Executing our playbook file install_basic.yml:
 
- .. code-block:: command
+.. code-block:: console
 
  	ansible-playbook install_basic.yml -k -K
+
 
 For this to work every machine in group web must have a user studio with the
 same password. The flag `-k` lets Ansible ask for a SSH password. `-K` is for the
@@ -113,4 +116,3 @@ sudo password.
 
 If there's a SSH key for user studio on all machines, no SSH password has
 to be typed, but the password for sudo is still necessary.
-
