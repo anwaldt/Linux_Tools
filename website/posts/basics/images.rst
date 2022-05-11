@@ -7,7 +7,7 @@
 .. description:
 .. type: text
 .. priority: 5
-.. author: NT
+.. author: Nils Tonnätt
 
 Getting the sprawl access point image
 =====================================

@@ -7,4 +7,4 @@
 .. description:
 .. type: text
 .. priority: 1
-.. author: NT
+.. author: Nils Tonnätt

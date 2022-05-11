@@ -7,7 +7,8 @@
 .. description:
 .. type: text
 .. priority: 4
-.. author: NT
+.. author: Nils Tonnätt
+
 
 `systemd <https://www.freedesktop.org/wiki/Software/systemd/>`_ is a set of tools managing,
 among other things, the startup procedure on Linux systems.
