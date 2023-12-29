@@ -1,12 +1,12 @@
-.. title: Using the Terminal for Doing Stuff
-.. slug: using-the-terminal-for-doing-stuff
+.. title: Working with the Terminal
+.. slug: working_with_the_terminal
 .. date: 2021-04-07 14:00
 .. tags:
 .. category: misc:basics
 .. link:
 .. description:
 .. type: text
-.. priority: 1
+.. priority: 0
 
 People developing on MAC or Linux systems are used to doing things from the terminal or console.
 Especially when working on remote servers - but also for embedded

@@ -7,7 +7,7 @@
 .. description:
 .. type: text
 .. priority: 2
-.. author: John Doe
+.. author: Nils Tonnaett
 
 About JackTrip
 --------------

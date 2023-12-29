@@ -6,7 +6,7 @@
 .. link:
 .. description:
 .. type: text
-.. priority: 2
+.. priority: 1
 
 Shell scripts can be helpful for organizing sequences
 of terminal commands to execute them in a specific order

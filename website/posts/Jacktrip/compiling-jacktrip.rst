@@ -7,7 +7,7 @@
 .. description:
 .. type: text
 .. priority: 3
-.. author: NT
+.. author: Nils Tonnaett
 
 The SPRAWL System needs some additional features that are missing from the main
 branch of Jacktrip. To build the correct JackTrip version, the Jacktrip git repository
@@ -35,5 +35,3 @@ Changes in the remote repository have to get pulled.
   git pull
 
 Afterwards you can follow the `official build instructions <https://jacktrip.github.io/jacktrip/Build/Linux/>`_.
-
-

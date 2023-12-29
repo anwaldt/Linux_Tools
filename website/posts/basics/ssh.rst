@@ -6,7 +6,7 @@
 .. link:
 .. description:
 .. type: text
-.. priority: 0
+.. priority: 2
 
 SSH (Secure Shell Protocol) gives remote access to remote computer. In its basic form it allows
 the execution of command lines in a terminal, if the remote machine is running an SSH server.
