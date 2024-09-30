@@ -14,13 +14,26 @@ There might be some tasks that you have to execute on every machine in your data
 
 ---
 
+
+Ansible Without SSH Keys
+========================
+
+
+
+.. code-block:: console
+
+	apt-get install sshpass
+
+
+
+
 Playbooks
 =========
 
 Instead of logging in in every machine via SSH, we write an Ansible playbook
 that describes all tasks in a YAML file.
 
- .. code-block:: yaml
+.. code-block:: yaml
 
 	---
 	- name: Installing packages
