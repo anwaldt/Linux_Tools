@@ -1,5 +1,5 @@
-.. title: The Manual Mesh
-.. slug: manual-mesh
+.. title: The Simple Mesh
+.. slug: simple-mesh
 .. date: 2024-09-28 14:00
 .. tags:
 .. category: _nsmi:jacktrip
@@ -10,18 +10,17 @@
 .. author: Henrik von Coler
 
 
-**The Mesh Ring** is a group exercise to create a fully connected mesh audio network, using JackTrip:
+**The Simple Mesh** is a group exercise to create a fully connected mesh audio network, using JackTrip:
 
 .. figure:: /images/mis/mesh_1.png
-	:figwidth: 100%
+	:figwidth: 66%
 	:width: 400px
 	:align: center
 
 	*Four Access Points in a fully connected mesh.*
 
 
-In this configuration, audio signals can be sent to every node. Each of the Access Points [1,2,3,4]  can manage where to send signals and which signals to receive, including additional processing.
-
+In this configuration, audio signals will be sent to every node automatically.
 
 ------
 
